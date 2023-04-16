@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D134C7F4-E25F-BCEB-11F3-F3D3C33FE96C}</ProjectGuid>
+    <ProjectGuid>{C029B22A-BF16-0286-5284-C9780BBFAD8E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,6 +56,7 @@
     <Compile Include="Assets\TerrainGridSystem\Editor\TGSInspector.cs" />
     <Compile Include="Assets\TerrainGridSystem\Editor\TGSConfigEditor.cs" />
     <Compile Include="Assets\TerrainGridSystem\Editor\TGSSnippetEditor.cs" />
+    <Compile Include="Assets\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -694,7 +695,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{9B33A516-FBB8-0E7C-22A2-B404D11EAD2C}</Project>
+      <Project>{9DA3D622-BA84-41CC-EF71-0F825D174A8F}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
