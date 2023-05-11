@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9B33A516-FBB8-0E7C-22A2-B404D11EAD2C}</ProjectGuid>
+    <ProjectGuid>{9DA3D622-BA84-41CC-EF71-0F825D174A8F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,20 +56,26 @@
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\TerrainTrigger.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\AdminEntity.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Delaunay\Sweep\AdvancingFront.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Geom\Voronoi\VoronoiCell.cs" />
     <Compile Include="Assets\Polyart\PolyartStudio\Scripts\FoliageInteractor.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Snippets\TGSColorNeighbours.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\Region.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\Misc.cs" />
     <Compile Include="Assets\Polyart\PolyartStudio\Scripts\WaterReflection.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Utility\FixedBitArray3.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Polygon\Polygon.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\TriangulationAlgorithm.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\TGSStaticHelpers.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\TGSPathFinding.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Polygon\PolygonPoint.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\Input\IInputProxy.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\GridStartManager.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PathFinding\PathFinderFastIrregular.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Delaunay\Sweep\DTSweepConstraint.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Utility\FixedArray3.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\TerritoryMesh.cs" />
@@ -79,15 +85,19 @@
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Utility\MathUtil.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\Cell.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Snippets\TGSClearCells.cs" />
+    <Compile Include="Assets\Scripts\UI_And_Building\BuildingTypeSelection.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\DisposalManager.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Sets\ConstrainedPointSet.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\TGSConfig.cs" />
+    <Compile Include="Assets\Scripts\Units\Types.cs" />
     <Compile Include="Assets\Polyart\PolyartStudio\Scripts\SmoothMouseLook.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Geom\PolygonClipping\SweepEventSet.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Orientation.cs" />
     <Compile Include="Assets\Polyart\PolyartStudio\Scripts\Flythrough.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\TerrainWrappers\UnityTerrainWrapper.cs" />
+    <Compile Include="Assets\Scripts\DevTools\GridToPngConverter.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\TerrainWrappers\MeshTerrainWrapper.cs" />
+    <Compile Include="Assets\Scripts\UI_And_Building\BuildingDragDrop.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Snippets\TGSMoveToCell.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Clipper\ClipperExt.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\TGShaderParams.cs" />
@@ -101,8 +111,10 @@
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\Frontier.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PathFinding\PathFinder.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Geom\PolygonClipping\Rectangle.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\TGSTerritories.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PathFinding\PathFinderFast.cs" />
+    <Compile Include="Assets\Scripts\UI_And_Building\UI_Utils.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PathFinding\PathFindingPoint.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Polygon\PolygonUtil.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Utility\Rect2D.cs" />
@@ -120,12 +132,15 @@
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Sets\PointSet.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Geom\PolygonClipping\Contour.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Delaunay\Sweep\DTSweepBasin.cs" />
+    <Compile Include="Assets\Scripts\Settings\PathUnitSettings.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\TGSRectangleSelection.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Geom\PolygonClipping\EventQueue.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Delaunay\DelaunayTriangle.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PathFinding\IPathFinder.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Delaunay\Sweep\DTSweepPointComparator.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\TGSPrivVoronoiBake.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\GroupSpawner.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Snippets\TGSDetectMovement.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Geom\PolygonClipping\Connector.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\ArrayExtensions.cs" />
@@ -135,13 +150,16 @@
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\RectangleSelection.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\TriangulationConstraint.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\Territory.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\AttackFormation.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Utility\Point2DList.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Clipper\Clipper.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Geom\Segment.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\PathUnitPrefabs.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\Input\DefaultInputSystem.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\P2T.cs" />
     <Compile Include="Assets\Scripts\Utils\Utils.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Util\PointGenerator.cs" />
+    <Compile Include="Assets\Scripts\UI_And_Building\UiElementPositionSwitch.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Geom\PolygonClipping\Polygon.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Geom\Voronoi\Event.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Delaunay\Sweep\AdvancingFrontNode.cs" />
@@ -151,6 +169,10 @@
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\TriangulationMode.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Geom\PolygonClipping\PointChain.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Utility\Point2D.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\PathUnit.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\PathFindingUnitsGroup.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\TGS_PathFinder.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Util\TriangulationUtil.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Delaunay\Sweep\PointOnEdgeException.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\SurfaceFader.cs" />
@@ -159,16 +181,6 @@
     <Compile Include="Assets\TerrainGridSystem\Scripts\Core\TGSPrivate.cs" />
     <Compile Include="Assets\TerrainGridSystem\Scripts\PolyTri\Triangulation\Delaunay\Sweep\DTSweep.cs" />
     <Compile Include="Assets\Scripts\Controls\CameraControls.cs" />
-    <Compile Include="Assets\Scripts\Pathfinding\PathUnit.cs" />
-    <Compile Include="Assets\Scripts\Pathfinding\PathUnitPrefabs.cs" />
-    <Compile Include="Assets\Scripts\Pathfinding\TGS_PathFinder.cs" />
-    <Compile Include="Assets\Scripts\Pathfinding\GroupSpawner.cs" />
-    <Compile Include="Assets\Scripts\Pathfinding\AttackFormation.cs" />
-    <Compile Include="Assets\Scripts\Pathfinding\PathFindingUnitsGroup.cs" />
-    <Compile Include="Assets\Scripts\Pathfinding\GridStartManager.cs" />
-    <Compile Include="Assets\Scripts\Settings\PathUnitSettings.cs" />
-    <Compile Include="Assets\Scripts\Units\Types.cs" />
-    <Compile Include="Assets\Scripts\DevTools\GridToPngConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TerrainGridSystem\Resources\Shaders\UnlitSurfacesColorOverlay.shader" />
